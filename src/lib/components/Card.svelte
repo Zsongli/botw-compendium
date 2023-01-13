@@ -17,7 +17,7 @@
 <div class="card">
 	<span class="badge">{id}</span>
 	<header>
-		<img src={image} alt={name} />
+		<img src={image} alt={name} loading="lazy" />
 		<div>
 			<h3>{name.split(" ").map(capitalize).join(" ")}</h3>
 			<p>{description}</p>
